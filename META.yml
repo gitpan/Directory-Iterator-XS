@@ -1,7 +1,7 @@
 ---
 abstract: 'Recursive directory listing, fast XS backend'
 author:
-  - 'Steve Sanbeg'
+  - 'Steve Sanbeg <sanbeg@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 0
 configure_requires:
@@ -18,4 +18,6 @@ no_index:
     - t
     - inc
 requires: {}
-version: 1.001000
+resources:
+  repository: https://github.com/sanbeg/Directory-Iterator
+version: 1.001001
